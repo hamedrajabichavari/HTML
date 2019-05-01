@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="apple-touch-icon" sizes="57x57" href="../Favicon2/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="../Favicon2/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../Favicon2/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../Favicon2/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../Favicon2/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../Favicon2/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="../Favicon2/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../Favicon2/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../Favicon2/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="../Favicon2/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../Favicon2/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="../Favicon2/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../Favicon2/favicon-16x16.png">
+<link rel="manifest" href="../Favicon2/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+	<title></title>
+</head>
+<body>
+	<head>IT PROGRAM</head>
+<p>This is my table for IT student</p>
+<table border="2" cellpadding="10" width="400" height="700" bgcolor="pink" bordercolor="blue" background="../IMG/soccer.png">
+	<tr>
+		<th>STUDENT</th>
+		<th>PROGRAM</th>
+		<th>COUNTRY</th>
+	</tr>
+	<tr>
+		<td>Hamed</td>
+		<td>Embedded programing</td>
+		<td>Iran</td>
+	</tr>
+	<tr>
+		<td>Tiago</td>
+		<td>Web Development</td>
+		<td rowspan="2">Brazil</td>
+	</tr>
+	<tr>
+		<td>Edvardo</td>
+		<td rowspan="2">General Programing</td>
+	</tr>
+	<tr>
+		<td>Nick</td>
+		<td>Germany</td>
+	</tr>
+</table>
+</body>
+</html>
