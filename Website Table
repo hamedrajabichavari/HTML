@@ -26,7 +26,7 @@
     <table width="100%" style="height: 100%;" cellpadding="10" cellspacing="0" border="0">
         <!-- ============ HEADER SECTION ============== -->
         <tr>
-            <td colspan="3" style="height: 100px;" bgcolor="#777d9a">
+            <td colspan="3" style="height: 100px;" bgcolor="#776d6a">
                 <h1>IT Courses (ITD College)</h1></td>
         </tr>
         <!-- ============ NAVIGATION BAR SECTION ============== -->
@@ -50,7 +50,8 @@
                 <a href="Feedback.html">Feedback</a></td>
             <!-- ============ MIDDLE COLUMN (CONTENT) ============== -->
             <td width="55%" valign="top" bgcolor="#d2d8c7">
-                <h2>IT Courses</h2>This diploma program focuses on preparing you to work as a programmer requiring the application of current programming policies, practices, procedures and tools. This program will give you the theoretical knowledge and hands-on skills in industry standard programming languages, C and C++. You will also become very proficient at assembly language, a low level programming language used in architecture specific solutions.
+                <h2>Computers</h2>This is an introductory to the basics of computer hardware, especially those components that are used frequently by programmers including RAM and CPU. Students will also be introduced to operating systems.
+                <a href="https://itdcanada.ca/programs-courses/" title="ITD link" Target="_blank">ITD Link</a>
                 <br>
                 <br>
             </td>
