@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="?">
+    <meta name="author" content="?">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="57x57" href="Favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="Favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="Favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="Favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="Favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="Favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="Favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="Favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="Favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="Favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
+    <link rel="manifest" href="Favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Quiz 1</title>
+</head>
+
+<body>
+    <!--My identification-->
+    <div class="name">Hamed Rajabi</div>
+    <div class="program">IT(Embedded Programing)</div>
+    <nav>
+        <!--The Titles-->
+        <ul>
+            <li><a href="#Home" title="this should go the same page">Home</a></li>
+            <li><a href="#About" title="this will link to about part">About</a></li>
+            <li><a href="#Blog" title="this will link to blog part">Blog</a></li>
+            <li><a href="#Contact" title="this will link to contact part">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="row">
+        <div class="parts">
+            <img src="images/library.jpg" alt="Library">
+            <h4>London Library</h4>
+            <h1 class="quote">Science is the only true guide in life</h1>
+            <hr>
+            <h2>
+<small>
+<strong>Andre Adura</strong>
+</small>
+</h2>
+        </div>
+    </div>
+    <!--About-->
+    <div class="row">
+        <div class="parts">
+            <hr>
+            <h2 id="About">About</h2>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias aut corrupti commodi cumque asperiores, consequatur similique nisi quo natus iure recusandae, ut libero pariatur repellendus maxime ratione eum numquam saepe.</p>
+            <p class="red">
+                <a href="https://github.com/hamedrajabichavari" title="My Github" Target="_blank">My Github</a>
+                <br>
+                <a href="https://www.facebook.com/" title="My Facebook" Target="_blank">My Facebook</a>
+                <br>
+                <a href="https://www.instagram.com/" title="My Instagram" Target="_blank">My Instagram</a>
+            </p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        </div>
+    </div>
+    <!--Blog-->
+    <div class="row">
+        <div class="parts">
+            <hr>
+            <h2 id="Blog">Blog
+</h2>
+            <hr>
+
+            <br>
+            <p>I write lyrics for persian singers.You can follow me on instagram.</p>
+            <a href="https://www.instagram.com/" title="My Instagram" Target="_blank">My Instagram</a>
+            <p>Consectetur adipisicing elit. Impedit nesciunt dolor eaque, possimus laudantium suscipit libero odio reprehenderit perspiciatis repellendus quisquam, provident ipsum, repudiandae labore voluptatem nihil. Repudiandae, at, debitis.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        </div>
+    </div>
+    <!--Contact-->
+    <div class="row">
+        <div class="parts">
+            <hr>
+            <h2 id="Contact">Contact
+</h2>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias aut corrupti commodi cumque asperiores, consequatur similique nisi quo natus iure recusandae, ut libero pariatur repellendus maxime ratione eum numquam saepe.</p>
+            <table border="2" cellpadding="5" cellspacing="5" width="800" height="150">
+                <tr>
+                    <th> </th>
+                    <th>Description</th>
+
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td style="color: blue">hamed.rajabi@itdcanada.ca</td>
+                </tr>
+                <tr>
+                    <td>Phone:</td>
+                    <td>6045060285</td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td>3102-2975 Atlantic ave, Coquitlam, BC , Canada</td>
+                </tr>
+            </table>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="row">
+            <div>
+                <p class="red">Copyright &copy; 2019 | Hamed Rajabi</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
