@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="?">
+    <meta name="author" content="?">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="57x57" href="Favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="Favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="Favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="Favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="Favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="Favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="Favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="Favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="Favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="Favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
+    <link rel="manifest" href="Favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Quiz 1</title>
+</head>
+
+<body>
+    <div class="dropdown">
+        <button class="dropbtn">
+        language
+        </button>
+        <div class="dropdown-content">
+            <a href="index1.html"><img src="images/english.png" width="15" height="10">English</a>
+            <a href="index2.html"><img src="images/persian.png"width="15" height="10">Persian</a>
+        </div>  
+</div>
+    <!--My identification-->
+    <div class="name">Hamed Rajabi</div>
+    <div class="program">Resume</div>
+    <nav>
+        <!--Start Titles-->
+        <ul>
+            <li><a href="#Home" title="this should go the same page">Home</a></li>
+            <li><a href="#About" title="this will link to about part">About</a></li>
+            <li><a href="#XP" title="this will link to XP part">XP
+            <li><a href="#Study" title="this will link to Study part">Study</a></li>
+            <li><a href="#Personal" title="this will link to Personal part">Personal</a></li>
+            <li><a href="#Links" title="this will link to Links part">Links</a></li>
+        </ul>
+    </nav>
+    <!--End Titles-->
+    <div class="row">
+        <div class="parts">
+            <img src="images/library.jpg" alt="Library">
+          
+            
+        </div>
+    </div>
+    <!--Start About-->
+    <div class="row">
+        <div class="parts">
+            <hr>
+            <h2 id="About">About</h2>
+            <hr>
+            <p>I want to be a professional web developer</p>
+            <p>I want to write at least 100 popular lyrics in the next 10 years</p>
+        </div>
+    </div>
+    <!--End About-->
+    <!--Start XP-->
+    <div class="row">
+        <div class="parts">
+            <hr>
+            <h2 id="XP">XP
+</h2>
+            <hr>
+
+            <br>
+            <p>I worked as an electrical engineer for 5 years</p>
+            <p>I have written about 70 lyrics for persian singers</p>
+        </div>
+    </div>
+    <!--End XP-->
+    <!--Start Study-->
+    <div class="row">
+        <div class="parts">
+            <hr>
+            <h2 id="Study">Study
+</h2>
+            <hr>
+            <p>Master Degree in electrical engineering -  power</p>
+            <p>Bachelor Degree in electrical engineering -  Control</p>
+            <p>Student in IT program - Diploma</p>
+            <!--End Study-->
+            <!--Start Personal-->
+    <div class="row">
+        <div class="parts">
+            <hr>
+            <h2 id="Personal">Personal
+</h2>
+            <hr>
+            <p class="red">
+                <a href="https://www.leonardcohen.com/" Target="_blank">Personal favorite site ( Leonard Cohen)</a>
+                 <!--End Personal-->
+            <!--Start Links-->
+    <div class="row">
+        <div class="parts">
+            <hr>
+            <h2 id="Links">Links
+</h2>
+            <hr>
+            <p class="red">
+             <a href="https://github.com/hamedrajabichavari" title="My Github" Target="_blank">My Github</a>
+                <br>
+                <a href="https://www.facebook.com/" title="My Facebook" Target="_blank">My Facebook</a>
+                <br>
+                <a href="https://www.instagram.com/" title="My Instagram" Target="_blank">My Instagram</a>
+                 <!--End Links-->
+            </p>   
+        </div>
+    </div>
+</body>
+
+</html>
