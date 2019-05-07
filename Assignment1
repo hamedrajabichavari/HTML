@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="57x57" href="../Favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../Favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../Favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../Favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../Favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../Favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../Favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../Favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../Favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../Favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../Favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../Favicon/favicon-16x16.png">
+    <link rel="manifest" href="../Favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Bootstrap</title>
+</head>
+
+<body>
+    <!--*******************Start of Navbar*******************-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#AboutMe">About Me</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#MySkills">My Skills<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#MyGoal">My Goal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ContactInfo">Contact Info<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--*******************End of Navbar*******************-->
+
+    <!--*******************start of About Me*******************-->
+    <div class="container">
+        <br>
+        <h1 id="AboutMe">About Me</h1>
+        <img src="../images/image1.jpg" width="250" height="250" alt="image1">
+        <br>
+        <br>
+        <p>Master Degree in Electrical Engineering-Power</p>
+        <p>Bachelor Degree in Electrical Engineering-Control</p>
+    </div>
+    <!--*******************End of About Me*******************-->
+
+    <!--*******************Start of Table*******************-->
+    <br>
+    <div class="container">
+        <table class="table table-Gray" border="3">
+            <thead>
+                <tr>
+                    <th scope="col" colspan="2">Skills</th>
+                    <th scope="col" colspan="2">Career</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Hardware</th>
+                    <th>Software</th>
+                    <th>Job1</th>
+                    <th>Job2</th>
+                </tr>
+                <tr>
+                    <td>PC Assembly</td>
+                    <td rowspan="2">HTML,JavaScript,CSS,PHP,Java</td>
+                    <td>Game Developer</td>
+                    <td>Web Developer</td>
+                </tr>
+                <tr>
+                    <td>Networking</td>
+                    <td>Unity Developer</td>
+                    <td>Database Designer</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!--*******************End of Table*******************-->
+
+    <!--*******************start of My Skills*******************-->
+    <div class="container">
+        <br>
+        <h1 id="MySkills">My Skills</h1>
+        <img src="../images/image2.jpg" width="400" height="300" alt="image2">
+        <br>
+        <br>
+        <p>I am a Professional Electrical Engineer in Automation Industries</p>
+        <p>I write Lyrics for Persian Singers</p>
+    </div>
+    <!--*******************End of My Skills*******************-->
+
+    <!--*******************start of My Goal*******************-->
+    <div class="container">
+        <br>
+        <h1 id="MyGoal">My Goal</h1>
+        <img src="../images/image3.jpg" width="400" height="300" alt="image3">
+        <br>
+        <br>
+        <p>I want to be a professional web developer</p>
+        <p>I want to write at least 100 popular lyrics in the next 10 years</p>
+    </div>
+    <!--*******************End of My Goal*******************-->
+
+    <!--*******************start of Contact Info*******************-->
+    <div class="container">
+        <br>
+        <h1 id="ContactInfo">Contact Info</h1>
+        <img src="../images/image4.jpg" width="400" height="300" alt="image4">
+        <br>
+        <br>
+        <p>Address: 3102-2975 Atlantic Ave , Coquitlam , BC , Canada</p>
+        <p style="color: blue">hamed.rajabi@itdcanada.ca</p>
+        <br>
+        <p>You Can follow Me On These Links:</p>
+        <br>
+        <a href="https://github.com/hamedrajabichavari" title="My Github" Target="_blank">My Github</a>
+        <br>
+        <a href="https://www.facebook.com/" title="My Facebook" Target="_blank">My Facebook</a>
+        <br>
+        <a href="https://www.instagram.com/" title="My Instagram" Target="_blank">My Instagram</a>
+    </div>
+    <!--*******************End of Contact Info*******************-->
+    <br>
+    <br>
+    <!--*******************start of Form*******************-->
+    <div class="container">
+        <p>You can submit Here</p>
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <!--*******************End of Form*******************-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
